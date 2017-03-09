@@ -1,0 +1,30 @@
+env:
+  global:
+    - TMPDIR=/tmp
+
+
+language: java
+jdk:
+  - oraclejdk8
+
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer
+
+install: true
+
+sudo: false
+
+# Install the latest version of Bobcat
+before_script:
+  - git clone https://github.com/Cognifide/bobcat.git ${TMPDIR} && cd ${TMPDIR}/bobcat && mvn clean install -DskipTests
+
+# Integration tests are executed using internal infrastructure
+script: mvn clean verify -DskipTests versions:use-latest-versions versions:commit
+
+# Update repository with newer Bobcat versions if necessary
+after_script:
+  - git config credential.helper "store --file=.git/credentials"
+  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+  - ./updateBobcatVersion.sh

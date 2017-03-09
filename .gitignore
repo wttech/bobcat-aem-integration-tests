@@ -1,0 +1,107 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ToDo
+ @mmanski
+ Sign out
+ Unwatch 11
+  Star 20
+ Fork 8 Cognifide/bobcat  
+ Code
+ Issues 18
+ Pull requests 6
+ Boards
+ Reports
+ Projects 0
+ Wiki
+
+Branch: master Find file Copy pathbobcat/.gitignore
+99cb9bb  on Aug 10, 2016
+ Mikolaj Manski License Header fix + gitignore extension
+2 contributors @kkarolk @Shaihuludus
+RawBlameHistory     
+80 lines (60 sloc)  981 Bytes
+# Maven-specific
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# IDE-specific
+
+# Netbeans
+
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+# Ecplise
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# Code Recommenders
+.recommenders/
+
+/bb-aem-integration-tests/logs/default_*
+
+.classpath
+.project
+.settings
+
+*.iml
+.idea
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+*.log
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
