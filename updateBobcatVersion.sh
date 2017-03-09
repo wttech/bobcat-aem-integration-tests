@@ -12,6 +12,6 @@ else
 	echo "Stale version of Bobcat dependency detected in the repository! Commiting changes with the latest versions in project's pom file"
 	git checkout master
 	git add pom.xml
-	git commit -m "Updated Bobcat to the latest available version"
+	git commit -m "[skip ci] Updated Bobcat to the latest available version"
 	git push -q
 fi
