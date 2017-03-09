@@ -13,7 +13,7 @@ install: true
 sudo: false
 before_script:
 - git clone https://github.com/Cognifide/bobcat.git ${TMPDIR}/bobcat && cd ${TMPDIR}/bobcat
-  && mvn clean install -DskipTests
+  && mvn clean install -DskipTests && cd ${TRAVIS_BUILD_DIR}
 script: mvn clean verify -DskipTests versions:use-latest-versions versions:commit
 after_script:
 - git config credential.helper "store --file=.git/credentials"
