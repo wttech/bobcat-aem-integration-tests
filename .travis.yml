@@ -18,4 +18,6 @@ script: mvn clean verify -DskipTests versions:use-latest-versions versions:commi
 after_script:
 - git config credential.helper "store --file=.git/credentials"
 - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+- git -c user.name='travis'
+- git -c user.email='travis'
 - "./updateBobcatVersion.sh"
