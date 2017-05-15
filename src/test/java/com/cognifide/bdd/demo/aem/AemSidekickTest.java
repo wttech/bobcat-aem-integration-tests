@@ -191,6 +191,7 @@ public class AemSidekickTest {
     assertFalse(sidekick.isPageOperationEnabled(PageOperation.ROLLOUT_PAGE));
     assertTrue(sidekick.isPageOperationEnabled(PageOperation.PAGE_PROPERTIES));
   }
+  
   private void openPageToTest() {
     page.open();
     assertTrue(page.isDisplayed());
