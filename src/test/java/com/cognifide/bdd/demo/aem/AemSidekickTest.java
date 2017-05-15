@@ -185,6 +185,13 @@ public class AemSidekickTest {
     assertFalse(sidekick.isComponentPresent("Incorrect component", "General"));
   }
 
+  @Test
+  public void isOperationVisible(){
+    sidekick.clickTab(SidekickTab.PAGE);
+    assertFalse(sidekick.isPageOperationEnabled(PageOperation.ROLLOUT_PAGE));
+    assertTrue(sidekick.isPageOperationEnabled(PageOperation.PAGE_PROPERTIES));
+  }
+  
   private void openPageToTest() {
     page.open();
     assertTrue(page.isDisplayed());
