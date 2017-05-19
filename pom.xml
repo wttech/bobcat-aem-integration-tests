@@ -69,42 +69,42 @@
         <dependency>
             <groupId>com.cognifide.qa.bb</groupId>
             <artifactId>bb-core</artifactId>
-            <version>1.2.1-SNAPSHOT</version>
+            <version>1.2.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.cognifide.qa.bb</groupId>
             <artifactId>bb-aem-classic</artifactId>
-            <version>1.2.1-SNAPSHOT</version>
+            <version>1.2.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.cognifide.qa.bb</groupId>
             <artifactId>bb-aem-touch-ui</artifactId>
-            <version>1.2.1-SNAPSHOT</version>
+            <version>1.2.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.cognifide.qa.bb</groupId>
             <artifactId>bb-reports</artifactId>
-            <version>1.2.1-SNAPSHOT</version>
+            <version>1.2.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.cognifide.qa.bb</groupId>
             <artifactId>bb-cumber</artifactId>
-            <version>1.2.1-SNAPSHOT</version>
+            <version>1.2.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.cognifide.qa.bb</groupId>
             <artifactId>bb-junit</artifactId>
-            <version>1.2.1-SNAPSHOT</version>
+            <version>1.2.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.cognifide.qa.bb</groupId>
             <artifactId>bb-traffic</artifactId>
-            <version>1.2.1-SNAPSHOT</version>
+            <version>1.2.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.cognifide.qa.bb</groupId>
             <artifactId>bb-annotations</artifactId>
-            <version>1.2.1-SNAPSHOT</version>
+            <version>1.2.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.hamcrest</groupId>
